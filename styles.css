@@ -25,9 +25,9 @@ body{
     flex:0.5;
     cursor:pointer;
     transition: flex 1s ease-in;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
     position: relative;
     border-radius: 20px;
     margin-right: 20px;
@@ -57,7 +57,8 @@ body{
 
 @media(max-width:768px){
     .panel{
-        background-size: contain;
+        background-size: contain !important;
+        background-position: center !important;
     }
 }
 
